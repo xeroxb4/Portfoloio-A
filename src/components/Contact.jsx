@@ -134,7 +134,7 @@ const Contact = () => {
             transition={{ duration: 0.5, delay: 0.8 }}
           >
             <p>Or reach out directly:</p>
-            <a href="mailto:hageelorm" className="text-gray-800 hover:text-black transition duration-300">hageelorm@gmail.com</a>
+            <a href="mailto:hageelorm@gmail.com" className="text-gray-800 hover:text-black transition duration-300">hageelorm@gmail.com</a>
           </motion.div>
         </div>
       </section>

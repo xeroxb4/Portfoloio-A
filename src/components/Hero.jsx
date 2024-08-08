@@ -19,7 +19,7 @@ export default function Hero() {
         >
           <h2 className="text-3xl md:text-4xl font-light mb-2">hi there, I&apos;m</h2>
           <h1 className="text-5xl md:text-7xl font-bold mb-6">Doreen Elorm Ackwerh</h1>
-          <p className="text-xl md:text-2xl">Front-End Developer| Brand Strategist| Marketing Researcher</p>
+          <p className="text-xl md:text-2xl">Front-End Developer| Brand Strategist| Market Researcher</p>
         </motion.div>
         
         {/* Image */}

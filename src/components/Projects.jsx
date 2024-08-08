@@ -4,13 +4,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const projects = [
-  {
-    title: 'Portfolio Website',
-    description: 'Designed and developed a personal portfolio website to showcase my skills, projects, and work experience.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS'],
-    image: heroBg,
-    link: 'https://react-practice-teal-kappa.vercel.app/'
-  },
+ 
   {
     title: 'Giddins E-commerce Web Application',
     description: 'Built a responsive e-commerce web application with product listings, shopping cart functionality, and a checkout process.',
@@ -38,6 +32,13 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js', 'MongoDB'],
     image: eye,
     link: 'https://studio-rouge-xi.vercel.app/'
+  },
+  {
+    title: 'Portfolio Website',
+    description: 'Designed and developed a personal portfolio website to showcase my skills, projects, and work experience.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS'],
+    image: heroBg,
+    link: 'https://react-practice-teal-kappa.vercel.app/'
   },
 ];
 
