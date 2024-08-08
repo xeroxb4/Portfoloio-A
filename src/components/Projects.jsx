@@ -9,7 +9,7 @@ const projects = [
     description: 'Designed and developed a personal portfolio website to showcase my skills, projects, and work experience.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS'],
     image: heroBg,
-    link: 'http://127.0.0.1:5501/index.html'
+    link: 'https://react-practice-teal-kappa.vercel.app/'
   },
   {
     title: 'Giddins E-commerce Web Application',
@@ -30,14 +30,14 @@ const projects = [
     description: 'Created an anual event calendar showcasing events happening in Ghana throughout the year with event cards and location/ price filters. ',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
     image: ghanaHype,
-    link: 'http://localhost:5177/'
+    link: 'https://ghanahypedopel.netlify.app/'
   },
   {
     title: 'StudioRouge Photography Studio Website',
     description: 'Developed a website for a photography studio to showcase their work and their awesome team',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js', 'MongoDB'],
     image: eye,
-    link: 'http://localhost:5176/preview'
+    link: 'https://studio-rouge-xi.vercel.app/'
   },
 ];
 

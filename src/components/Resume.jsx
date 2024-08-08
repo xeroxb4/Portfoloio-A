@@ -4,15 +4,17 @@ import { FaBriefcase, FaCode, FaLanguage } from "react-icons/fa";
 
 const skills = [
   { name: 'React', level: 80 },
-  { name: 'JavaScript', level: 85 },
-  { name: 'HTML', level: 90 },
-  { name: 'CSS', level: 85 },
+  { name: 'JavaScript', level: 65 },
+  { name: 'HTML', level: 70 },
+  { name: 'CSS', level: 80 },
   { name: 'Tailwind', level: 75 },
-  { name: 'Git', level: 70 },
+  { name: 'Git', level: 60 },
 ];
 
 const languages = [
-  { name: 'English', level: 90 },
+  {name: 'English', level: 95 },
+  { name: 'French', level: 70 },
+  { name: 'Twi ', level: 90 },
   { name: 'French', level: 70 },
 ];
 
@@ -31,6 +33,16 @@ const experiences = [
     company: 'Giddins Innove',
     role: 'Brand Strategist',
     duration: '2019',
+  },
+  {
+    company: 'Appen Global',
+    role: 'Social Media Evaluator/Content Curator',
+    duration: '2018',
+  },
+  {
+    company: 'School Of Public Health',
+    role: 'National Service Personnel',
+    duration: '2015',
   },
   // Add other experiences here in the same format
 ];
