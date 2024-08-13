@@ -15,7 +15,7 @@ const languages = [
   {name: 'English', level: 95 },
   { name: 'French', level: 70 },
   { name: 'Twi ', level: 90 },
-  { name: 'French', level: 70 },
+  { name: 'Ewe', level: 70 },
 ];
 
 const experiences = [
