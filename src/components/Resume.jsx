@@ -8,7 +8,8 @@ const skills = [
   { name: "HTML", level: 70 },
   { name: "CSS", level: 80 },
   { name: "Tailwind", level: 75 },
-  { name: "Git", level: 60 },
+  { name: "SEO", level: 60 },
+  { name: "SMM", level: 70 },
 ];
 
 const languages = [
@@ -97,7 +98,7 @@ const Resume = () => {
       </motion.h1>
 
       <div className="flex justify-center mb-8">
-        {["experience", "skills", "languages"].map((tab) => (
+        {["education", "experience", "skills", "languages"].map((tab) => (
           <motion.button
             key={tab}
             className={`mx-2 px-4 py-2 rounded-full ${
