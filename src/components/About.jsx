@@ -61,7 +61,7 @@ const About = () => {
               About Me
             </motion.h2>
             <p className="text-lg md:text-xl leading-relaxed mb-6">
-              Hello, I&apos;m Doreen Wuaku, a junior frontend developer with a passion for creating engaging and responsive web applications. With a strong foundation in marketing and brand strategy, I bring a unique perspective to web development. I specialize in:
+              Hello, I&apos;m Doreen Wuaku, a Junior Frontend Developer with a passion for creating engaging and responsive web applications. With a strong foundation in marketing and brand strategy, I bring a unique perspective to web development. I specialize in:
             </p>
             <motion.ul
               className="list-none mb-6 space-y-2"
