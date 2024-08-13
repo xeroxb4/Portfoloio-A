@@ -1,5 +1,3 @@
-// 
-
 import { useState, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { landingBg } from '../assets/images'; // Update with your actual image path
@@ -63,7 +61,7 @@ const About = () => {
               About Me
             </motion.h2>
             <p className="text-lg md:text-xl leading-relaxed mb-6">
-              Hello, I&apos;m Doreen Elorm Ackwerh, a junior frontend developer with a passion for creating engaging and responsive web applications. I specialize in:
+              Hello, I&apos;m Doreen Elorm Ackwerh, a junior frontend developer with a passion for creating engaging and responsive web applications. With a strong foundation in marketing and brand strategy, I bring a unique perspective to web development. I specialize in:
             </p>
             <motion.ul
               className="list-none mb-6 space-y-2"
@@ -77,6 +75,7 @@ const About = () => {
                 "Building interactive user interfaces with React",
                 "Crafting modern web designs using Tailwind CSS",
                 "Writing clean and efficient code with JavaScript and HTML/CSS",
+                "Utilizing marketing principles to enhance user experience and engagement",
               ].map((item, index) => (
                 <motion.li
                   key={index}
