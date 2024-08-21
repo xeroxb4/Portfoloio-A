@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { landingBg } from '../assets/images'; // Update with your actual image path
+import { backend, landingBg } from '../assets/images'; // Update with your actual image path
 
 const About = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -10,13 +10,13 @@ const About = () => {
     controls.start({ opacity: 1, y: 0 });
   }, [controls]);
 
-  const accentColor = '#4A90E2'; // A subtle blue accent color
+  const accentColor = '#FFDEAD'; // A subtle blue accent color
 
   return (
     <section
       id="about"
       className={`relative min-h-screen flex flex-col justify-center items-center ${
-        darkMode ? 'bg-black text-white' : 'bg-white text-black'
+        darkMode ? 'bg-black text-white' : 'bg-[#227572] text-white'
       } transition-all duration-500`}
     >
       <div
@@ -42,7 +42,7 @@ const About = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <motion.img
-              src={landingBg}
+              src={backend}
               alt="Profile"
               className="w-full max-w-md rounded-lg shadow-2xl grayscale hover:grayscale-0 transition-all duration-300"
               whileHover={{ scale: 1.05 }}
@@ -60,9 +60,8 @@ const About = () => {
             >
               About Me
             </motion.h2>
-            <p className="text-lg md:text-xl leading-relaxed mb-6">
-              Hello, I&apos;m Doreen Wuaku, a Junior Frontend Developer with a passion for creating engaging and responsive web applications. With a strong foundation in marketing and brand strategy, I bring a unique perspective to web development. I specialize in:
-            </p>
+            <p className="text-lg  leading-relaxed mb-6">
+            Hello! I&apos;m a dedicated backend developer with a strong foundation in server-side technologies, particularly in Node.js, Express, and MongoDB. My expertise extends to building scalable, secure, and efficient backend systems that drive the functionality of modern web applications. In addition to my backend skills, I also have a solid understanding of front-end technologies like HTML and CSS, which allows me to create seamless integrations between the front-end and back-end. I take pride in writing clean, maintainable code and solving complex problems. Whether it&apos;s designing RESTful APIs, optimizing database queries, or ensuring smooth client-server interactions, I&apos;m committed to delivering robust solutions that enhance user experience and drive business growth. Let&apos;s build something amazing together!            </p>
             <motion.ul
               className="list-none mb-6 space-y-2"
               initial="hidden"
@@ -71,29 +70,7 @@ const About = () => {
                 visible: { transition: { staggerChildren: 0.1 } },
               }}
             >
-              {[
-                "Building interactive user interfaces with React",
-                "Crafting modern web designs using Tailwind CSS",
-                "Writing clean and efficient code with JavaScript and HTML/CSS",
-                "Utilizing marketing principles to enhance user experience and engagement",
-              ].map((item, index) => (
-                <motion.li
-                  key={index}
-                  className="flex items-center space-x-2"
-                  variants={{
-                    hidden: { opacity: 0, x: -20 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-                  <motion.span
-                    style={{ color: accentColor }}
-                    whileHover={{ scale: 1.2 }}
-                  >
-                    ▹
-                  </motion.span>
-                  <span>{item}</span>
-                </motion.li>
-              ))}
+            
             </motion.ul>
             <motion.a
               href="#contact"

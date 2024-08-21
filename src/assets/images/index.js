@@ -7,5 +7,12 @@ import ghanaHype from "../images/ghanaHype.jpg"
 import inseecCert from "../images/inseecCert.jpg"
 import ibm from "../images/ibm.jpg"
 import UGF from "../images/UGF.jpg"
+import Abirem from "../images/Abirem.jpg"
+import backend from "../images/backend.webp"
+import mental from "../images/mental.jpg"
+import moviepic from "../images/moviepic.jpg"
+import eventpic from "../images/eventpic.jpg"
+import healthconnect from "../images/healthconnect.avif"
+import me from "../images/me.jpg"
 
-export {eye, fashionBlog, heroBg, landingBg, furnish, ghanaHype, inseecCert, ibm, UGF}
+export {eye, fashionBlog, heroBg, eventpic, healthconnect, mental, moviepic, landingBg, furnish, ghanaHype, inseecCert, ibm, UGF, Abirem, me, backend}

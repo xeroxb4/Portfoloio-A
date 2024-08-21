@@ -3,71 +3,64 @@ import { motion } from "framer-motion";
 import { FaBriefcase, FaCode, FaLanguage } from "react-icons/fa";
 
 const skills = [
-  { name: "React", level: 80 },
-  { name: "JavaScript", level: 65 },
+  { name: "JavaScript", level: 76.5 },
   { name: "HTML", level: 70 },
   { name: "CSS", level: 80 },
-  { name: "Tailwind", level: 75 },
-  { name: "SEO", level: 60 },
-  { name: "SMM", level: 70 },
+  
 ];
 
 const languages = [
-  { name: "English", level: 95 },
-  { name: "French", level: 70 },
-  { name: "Twi ", level: 90 },
-  { name: "Ewe", level: 70 },
+  { name: "English", level: 90 },
+  { name: "Ga", level: 100 },
+  { name: "Twi ", level: 50 },
+  
 ];
 
 const experiences = [
   {
-    company: "Peduase Valley Resort",
-    role: "Brand Strategist",
-    duration: "2022-2023",
+    company: "Beiersdorf Ghana Ltd",
+    role: "Territory Sales Manager",
+    duration: "2021-2023",
   },
   {
-    company: "Upwork Inc",
-    role: "Freelancer",
-    duration: "2020-2021",
+    company: "Gold Medal Ltd",
+    role: "Sales Executive",
+    duration: "2019-2021",
   },
   {
-    company: "Giddins Innove",
-    role: "Brand Strategist",
-    duration: "2019",
+    company: "National Identification Authority",
+    role: "Senior Registration Officer",
+    duration: "2019-2020",
   },
   {
-    company: "Appen Global",
-    role: "Social Media Evaluator/Content Curator",
+    company: "Accra Institute of Technology",
+    role: "Marketing Officer",
     duration: "2018",
   },
   {
-    company: "School Of Public Health",
-    role: "National Service Personnel",
-    duration: "2015",
+    company: "DeepDyve Ltd",
+    role: "Research Assistant",
+    duration: "2016-2018",
   },
 ];
 
 const education = [
   {
-    institution: "NIBS Nobel International Business School",
-    year: "2022",
-    major: "Executive Advanced Diploma - Positive Leadership for Africa",
+    institution: "MeltWater Entreprenuerial School of Technology",
+    year: "2024",
+    major: "Back-End Web Developer",
   },
   {
-    institution: "INSEEC MSC & MBA Bordeaux",
-    year: "2017-2019",
-    major: "Luxury Brand Management",
+    institution: "Wisconsin International University College",
+    year: "2013-2015",
+    major: "BSc Human Resource Management",
   },
   {
-    institution: "Université Bordeaux Montaigne",
-    year: "2013-2014",
-    major: "Diplôme Universitaire - Français Langue Etranger",
+    institution: "University Of Professional Studies",
+    year: "2010-2012",
+    major: "Tertiary Diploma In Marketing",
   },
-  {
-    institution: "University of Ghana, Legon",
-    year: "2010-2015",
-    major: "Bachelor of Arts - Sociology and French",
-  },
+  
 ];
 
 const Resume = () => {
