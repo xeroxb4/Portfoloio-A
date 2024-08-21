@@ -21,7 +21,7 @@ const About = () => {
     >
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat opacity-10 z-0"
-        style={{ backgroundImage: `url(${landingBg})` }}
+        style={{ backgroundImage: `url(${backend})` }}
       ></div>
       <div className="container mx-auto px-4 z-10">
         <motion.button
@@ -61,7 +61,7 @@ const About = () => {
               About Me
             </motion.h2>
             <p className="text-lg  leading-relaxed mb-6">
-            Hello! I&apos;m a dedicated backend developer with a strong foundation in server-side technologies, particularly in Node.js, Express, and MongoDB. My expertise extends to building scalable, secure, and efficient backend systems that drive the functionality of modern web applications. In addition to my backend skills, I also have a solid understanding of front-end technologies like HTML and CSS, which allows me to create seamless integrations between the front-end and back-end. I take pride in writing clean, maintainable code and solving complex problems. Whether it&apos;s designing RESTful APIs, optimizing database queries, or ensuring smooth client-server interactions, I&apos;m committed to delivering robust solutions that enhance user experience and drive business growth. Let&apos;s build something amazing together!            </p>
+            With a strong interest in backend programming, I specialize in building robust and scalable systems utilizing Node.js, Express.js, and MongoDB. My path in web development is motivated by a desire to create safe and efficient solutions that bring ideas to life. I specialize in creating seamless, dynamic user experiences by using my expertise in server-side technologies, as well as a good understanding of HTML and CSS. Every piece of code I create is intended to solve complicated issues and provide value using clean, maintainable design., I&apos;m committed to delivering robust solutions that enhance user experience and drive business growth. Let&apos;s build something amazing together!            </p>
             <motion.ul
               className="list-none mb-6 space-y-2"
               initial="hidden"
