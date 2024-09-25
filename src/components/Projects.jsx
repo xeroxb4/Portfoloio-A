@@ -31,14 +31,14 @@ const projects = [
     description: 'Developed a website for a photography studio to showcase their work and their awesome team',
     technologies: [ 'JavaScript','Node.js', 'Express.js', 'MongoDB'],
     image: healthconnect,
-    link: 'https://github.com/CareNetwork/healthconnect-backend/'
+    link: 'https://healthconnectdemo.netlify.app/'
   },
   {
     title: 'Portfolio Website',
     description: 'Designed and developed a personal portfolio website to showcase my skills, projects, and work experience.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'CSS'],
     image: me,
-    link: 'https://github.com/Team-Jambo/portfolio-api/'
+    link: 'https://amon-erasmos.netlify.app/'
   },
 ];
 
